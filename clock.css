@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url(../pictures/20200111_210848.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+body::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top: 0;
+    height: 100%;
+    background-color: black;
+    opacity: .5;
+    z-index: -1;
+}
+
+h4{
+    letter-spacing: 3px;
+    font-size: 20px;
+    color: white;
+}
+
+.clock{
+    display: flex;
+    margin-top: 30px;
+    position: relative;
+}
+
+.clock span{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 5px;
+    align-items: center;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    padding: 10px 10px;
+    font-size: 40px;
+    color: white;
+    position: relative;
+}
+
+.clock span::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top: 0;
+    height: 100%;
+    background-color: red;
+    opacity: .3;
+
+}
+
+.c-name small{
+    font-size: 15px;
+    letter-spacing: 3px;
+    background-color: black;
+    opacity: .7;
+    padding: 10px 10px;
+    border-radius: 5px;
+    z-index: 1;
+}
+
+.pmam{
+    position: absolute;
+    bottom: 0;
+}
+
+
