@@ -11,7 +11,7 @@ body{
     align-items: center;
     height: 100vh;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-image: url(../pictures/20200111_210848.jpg);
+    background-image: url(./20200111_210848.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
